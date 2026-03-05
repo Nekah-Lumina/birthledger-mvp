@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-f8981cee09df5c217f26606d2a8bcba3ab82771f",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/BirthLedger.sol": "project/contracts/BirthLedger.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/BirthLedger.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\ncontract BirthLedger {\n    struct HealthEvent {\n        string motherId;\n        string childId;\n        string eventType; // \"BIRTH\" or \"VACCINE\"\n        uint256 timestamp;\n    }\n\n    HealthEvent[] public events;\n\n    event EventRecorded(string motherId, string childId, string eventType, uint256 timestamp);\n\n    function recordEvent(\n        string memory motherId,\n        string memory childId,\n        string memory eventType\n    ) public {\n        events.push(HealthEvent(motherId, childId, eventType, block.timestamp));\n        emit EventRecorded(motherId, childId, eventType, block.timestamp);\n    }\n\n    function getEventCount() public view returns (uint256) {\n        return events.length;\n    }\n}\n"
+      }
+    }
+  }
+}

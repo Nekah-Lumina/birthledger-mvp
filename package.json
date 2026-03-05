@@ -1,0 +1,33 @@
+{
+  "name": "birthledger-mvp",
+  "version": "1.0.0",
+  "description": "BirthLedger is an open-source prototype designed to demonstrate how blockchain technology can create tamper-proof maternal and child health records.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekah-Lumina/birthledger-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nekah-Lumina/birthledger-mvp/issues"
+  },
+  "homepage": "https://github.com/Nekah-Lumina/birthledger-mvp#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.2",
+    "@types/node": "^22.19.13",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.1.10",
+    "typescript": "~5.8.0",
+    "viem": "^2.47.0"
+  }
+}
