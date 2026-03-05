@@ -60,4 +60,7 @@ Potential benefits include:
 
 By combining blockchain verification with secure off-chain health data storage, BirthLedger aims to help ensure that every child begins life with a trusted and verifiable health record.
 
-Alignment with SDG 3 – Good Health and Well-Being
+## Alignment with SDG 3 – Good Health and Well-Being
+BirthLedger contributes to Sustainable Development Goal 3 by strengthening digital health infrastructure for maternal and child health systems.
+
+By ensuring that early-life health events such as births and vaccinations are securely recorded and verifiable, BirthLedger can support improved monitoring of maternal and child health outcomes and strengthen continuity of care across healthcare providers.
