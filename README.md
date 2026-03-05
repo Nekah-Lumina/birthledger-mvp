@@ -46,3 +46,16 @@ flowchart LR
     D --> E
     E --> F[Authorized Health Systems]
 ```
+
+## Public Health Impact
+
+BirthLedger supports stronger maternal and child health systems by providing a trusted digital registry of early-life health events.
+
+Potential benefits include:
+
+- Reduced loss of birth and vaccination records
+- Improved continuity of care for children
+- Stronger public health monitoring of maternal and child health outcomes
+- Reliable verification of early-life health data across clinics and regions
+
+By combining blockchain verification with secure off-chain health data storage, BirthLedger aims to help ensure that every child begins life with a trusted and verifiable health record.
