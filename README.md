@@ -59,3 +59,5 @@ Potential benefits include:
 - Reliable verification of early-life health data across clinics and regions
 
 By combining blockchain verification with secure off-chain health data storage, BirthLedger aims to help ensure that every child begins life with a trusted and verifiable health record.
+
+Alignment with SDG 3 – Good Health and Well-Being
