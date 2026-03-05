@@ -73,3 +73,58 @@ Within the NEKAH ecosystem, healthcare providers record maternal and child healt
 This architecture allows sensitive medical information to remain securely stored within NEKAH’s health data systems while the blockchain layer provides an immutable proof that key health events occurred.
 
 By combining NEKAH’s maternal health platform with BirthLedger’s verification infrastructure, the system aims to strengthen trust, traceability, and integrity in early-life health records.
+
+## Getting Started
+
+To run the BirthLedger prototype locally:
+
+1. Clone the repository
+
+git clone https://github.com/Nekah-Lumina/birthledger-mvp.git
+
+2. Navigate to the project folder
+
+cd birthledger-mvp
+
+3. Install dependencies
+
+npm install
+
+4. Start a local blockchain
+
+npx hardhat node
+
+5. Deploy the BirthLedger contract
+
+npx hardhat ignition deploy ignition/modules/BirthLedgerModule.ts --network localhost
+
+6. Run the example test script
+
+node scripts/test-birthledger.js
+
+## Repository Structure
+
+contracts/
+Contains Solidity smart contracts used by the BirthLedger system.
+
+scripts/
+Utility scripts for testing and interacting with the smart contract.
+
+ignition/
+Deployment modules used by Hardhat to deploy contracts.
+
+docs/
+Documentation describing the system architecture.
+
+README.md
+Project overview and technical documentation.
+
+## Roadmap
+
+Future development of BirthLedger may include:
+
+- Integration with the NEKAH maternal health platform
+- Secure off-chain health record storage integration
+- Mobile-friendly interfaces for healthcare workers
+- Interoperability with national health information systems
+- Pilot deployments in maternal health clinics
