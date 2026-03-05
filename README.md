@@ -1,40 +1,26 @@
-# BirthLedger MVP
+# BirthLedger
 
-BirthLedger is an open-source prototype designed to demonstrate how blockchain technology can create tamper-proof maternal and child health records.
+BirthLedger is a blockchain-based birth and maternal health event registry designed to improve the integrity, traceability, and accessibility of early-life health records for children.
 
-Developed by NekahLumina Ventures.
+In many regions, birth records and early maternal health events are fragmented, paper-based, or vulnerable to loss and manipulation. BirthLedger uses blockchain technology to create a tamper-resistant, verifiable record of key health events such as birth registrations, vaccinations, and maternal health visits.
 
-## The Problem
+The goal is to provide governments, clinics, and public health systems with a secure digital infrastructure that ensures every child has a trusted record of their earliest health milestones.
 
-In many low-resource healthcare systems, maternal and child health records are paper-based and fragmented across different clinics. This leads to lost birth records, incomplete vaccination histories, and poor continuity of care.
+This repository contains the MVP smart contract used to record health events on-chain, demonstrating how birth-related data can be securely registered and retrieved using blockchain infrastructure.
 
-## The Solution
+## Example Use Case
 
-BirthLedger uses blockchain technology to securely record important maternal and child health events such as:
+1. A child is born in a clinic.
+2. The clinic records the birth event on BirthLedger.
+3. The event is permanently stored on the blockchain.
+4. The child's health records can later be verified by authorized systems.
 
-- antenatal care visits
-- birth registration
-- vaccination records
+## Technology Stack
 
-Each event is written to a blockchain ledger, creating a permanent and verifiable record that cannot be altered.
-
-## MVP Features
-
-The BirthLedger prototype will demonstrate:
-
-- maternal health profile registration
-- birth event recording
-- vaccination record logging
-- blockchain verification of health events
-
-## Privacy and Security
-
-Sensitive personal health data will not be stored directly on the blockchain. Instead, encrypted off-chain storage will be used while blockchain transactions provide verification and integrity.
-
-## Project Status
-
-This repository contains the early prototype for BirthLedger, currently under development.
+- Solidity smart contracts
+- Hardhat development framework
+- Ethereum-compatible blockchain
 
 ## Vision
 
-BirthLedger aims to strengthen maternal and child healthcare systems by ensuring that every child begins life with a secure, verifiable health record.
+BirthLedger is designed to integrate with maternal health platforms like NEKAH to create a secure digital infrastructure for maternal and infant health data.
