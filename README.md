@@ -24,3 +24,11 @@ This repository contains the MVP smart contract used to record health events on-
 ## Vision
 
 BirthLedger is designed to integrate with maternal health platforms like NEKAH to create a secure digital infrastructure for maternal and infant health data.
+
+## Impact for Children
+
+BirthLedger strengthens the integrity of early-life health records by ensuring that critical events such as birth registrations, antenatal care visits, and vaccinations are securely recorded and verifiable.
+
+For millions of children in low-resource settings, fragmented or lost health records can lead to missed vaccinations, lack of continuity in care, and difficulty proving identity later in life. BirthLedger introduces a tamper-resistant registry that allows healthcare providers and health systems to maintain reliable maternal and child health histories.
+
+By enabling trusted digital health records from the moment of birth, BirthLedger supports stronger healthcare delivery, better monitoring of child health outcomes, and improved access to services for children and families.
