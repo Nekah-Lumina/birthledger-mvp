@@ -32,3 +32,16 @@ BirthLedger strengthens the integrity of early-life health records by ensuring t
 For millions of children in low-resource settings, fragmented or lost health records can lead to missed vaccinations, lack of continuity in care, and difficulty proving identity later in life. BirthLedger introduces a tamper-resistant registry that allows healthcare providers and health systems to maintain reliable maternal and child health histories.
 
 By enabling trusted digital health records from the moment of birth, BirthLedger supports stronger healthcare delivery, better monitoring of child health outcomes, and improved access to services for children and families.
+
+## System Architecture
+
+The BirthLedger system records key maternal and child health events using blockchain verification while keeping sensitive data stored securely off-chain.
+
+```mermaid
+flowchart LR
+    A[Clinic or Health Worker] --> B[BirthLedger Smart Contract]
+    B --> C[Blockchain Ledger]
+    A --> D[Off-Chain Health Records Database]
+    C --> E[Verification Layer]
+    D --> E
+    E --> F[Authorized Health Systems]
