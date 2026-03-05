@@ -64,3 +64,12 @@ By combining blockchain verification with secure off-chain health data storage, 
 BirthLedger contributes to Sustainable Development Goal 3 by strengthening digital health infrastructure for maternal and child health systems.
 
 By ensuring that early-life health events such as births and vaccinations are securely recorded and verifiable, BirthLedger can support improved monitoring of maternal and child health outcomes and strengthen continuity of care across healthcare providers.
+
+## Integration with NEKAH
+BirthLedger is designed to function as the blockchain verification layer for the NEKAH maternal and infant health platform.
+
+Within the NEKAH ecosystem, healthcare providers record maternal and child health events through the NEKAH application. BirthLedger can be used to create a tamper-resistant verification record of these events on a blockchain ledger.
+
+This architecture allows sensitive medical information to remain securely stored within NEKAH’s health data systems while the blockchain layer provides an immutable proof that key health events occurred.
+
+By combining NEKAH’s maternal health platform with BirthLedger’s verification infrastructure, the system aims to strengthen trust, traceability, and integrity in early-life health records.
